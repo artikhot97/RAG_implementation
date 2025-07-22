@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Local environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore data and model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite3
+*.pdf
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.docx
+*.pptx
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignore transformers cache
+~/.cache/huggingface/
+
+# Ignore torch cache
+~/.cache/torch/
